@@ -1,0 +1,27 @@
+{
+    "layer_names": [
+        "LOWER-MANTLE",
+        "UPPER-MANTLE",
+        "CRUST"
+    ],
+    "r_limits": [
+        3480000.0,
+        5701000.0,
+        6291000.0,
+        6371000.0
+    ],
+    "optional_crust_values": null,
+    "polynomials": {
+        "\\eta_m": [
+            [
+                1e+23
+            ],
+            [
+                1e+18
+            ],
+            [
+                "inf"
+            ]
+        ]
+    }
+}

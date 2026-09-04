@@ -1,0 +1,1068 @@
+{
+    "name": "7566538d-6_PREM_____uniform_____reference_____uniform_____no_viscous--\\Delta^{MANTLE_0}_1.00e-02",
+    "layer_models": [
+        {
+            "r_inf": 0.0,
+            "r_sup": 1221500.0,
+            "name": "INNER-CORE",
+            "polynomials": {
+                "v_s": [
+                    3667.8,
+                    0.0,
+                    -4447.5
+                ],
+                "v_p": [
+                    11262.2,
+                    0.0,
+                    -6364.0
+                ],
+                "\\rho_0": [
+                    13088.5,
+                    0.0,
+                    -8838.1
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{INNER-CORE_0}",
+                    "v_s^{INNER-CORE_1}",
+                    "v_s^{INNER-CORE_2}"
+                ],
+                "v_p": [
+                    "v_p^{INNER-CORE_0}",
+                    "v_p^{INNER-CORE_1}",
+                    "v_p^{INNER-CORE_2}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{INNER-CORE_0}",
+                    "\\rho_0^{INNER-CORE_1}",
+                    "\\rho_0^{INNER-CORE_2}"
+                ]
+            }
+        },
+        {
+            "r_inf": 1221500.0,
+            "r_sup": 3480000.0,
+            "name": "FLUID-CORE",
+            "polynomials": {
+                "v_s": [
+                    0.0
+                ],
+                "v_p": [
+                    11048.7,
+                    -4036.2,
+                    4802.3,
+                    -13573.2
+                ],
+                "\\rho_0": [
+                    12581.5,
+                    -1263.8,
+                    -3642.6,
+                    -5528.1
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{FLUID-CORE_0}"
+                ],
+                "v_p": [
+                    "v_p^{FLUID-CORE_0}",
+                    "v_p^{FLUID-CORE_1}",
+                    "v_p^{FLUID-CORE_2}",
+                    "v_p^{FLUID-CORE_3}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{FLUID-CORE_0}",
+                    "\\rho_0^{FLUID-CORE_1}",
+                    "\\rho_0^{FLUID-CORE_2}",
+                    "\\rho_0^{FLUID-CORE_3}"
+                ]
+            }
+        },
+        {
+            "r_inf": 3480000.0,
+            "r_sup": 3630000.0,
+            "name": "LOWER-MANTLE-1___MANTLE___MANTLE___LOWER-MANTLE",
+            "polynomials": {
+                "v_s": [
+                    6925.4,
+                    1467.2,
+                    -2083.4,
+                    978.3
+                ],
+                "v_p": [
+                    15389.1,
+                    -5318.1,
+                    5524.2,
+                    -2551.4
+                ],
+                "\\rho_0": [
+                    7956.5,
+                    -6476.1,
+                    5528.3,
+                    -3080.7
+                ],
+                "Q_\\mu": [
+                    312
+                ],
+                "\\omega_{m-inf}": [
+                    0.000309
+                ],
+                "\\alpha": [
+                    0.26
+                ],
+                "\\Delta": [
+                    5
+                ],
+                "\\eta_m": [
+                    1e+23
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{LOWER-MANTLE-1_0}",
+                    "v_s^{LOWER-MANTLE-1_1}",
+                    "v_s^{LOWER-MANTLE-1_2}",
+                    "v_s^{LOWER-MANTLE-1_3}"
+                ],
+                "v_p": [
+                    "v_p^{LOWER-MANTLE-1_0}",
+                    "v_p^{LOWER-MANTLE-1_1}",
+                    "v_p^{LOWER-MANTLE-1_2}",
+                    "v_p^{LOWER-MANTLE-1_3}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{LOWER-MANTLE-1_0}",
+                    "\\rho_0^{LOWER-MANTLE-1_1}",
+                    "\\rho_0^{LOWER-MANTLE-1_2}",
+                    "\\rho_0^{LOWER-MANTLE-1_3}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{MANTLE_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{MANTLE_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{MANTLE_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{MANTLE_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{LOWER-MANTLE_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 3630000.0,
+            "r_sup": 5600000.0,
+            "name": "LOWER-MANTLE-2___MANTLE___MANTLE___LOWER-MANTLE",
+            "polynomials": {
+                "v_s": [
+                    11167.1,
+                    -13781.8,
+                    17457.5,
+                    -9277.7
+                ],
+                "v_p": [
+                    24952.0,
+                    -40467.3,
+                    51483.2,
+                    -26641.9
+                ],
+                "\\rho_0": [
+                    7956.5,
+                    -6476.1,
+                    5528.3,
+                    -3080.7
+                ],
+                "Q_\\mu": [
+                    312
+                ],
+                "\\omega_{m-inf}": [
+                    0.000309
+                ],
+                "\\alpha": [
+                    0.26
+                ],
+                "\\Delta": [
+                    5
+                ],
+                "\\eta_m": [
+                    1e+23
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{LOWER-MANTLE-2_0}",
+                    "v_s^{LOWER-MANTLE-2_1}",
+                    "v_s^{LOWER-MANTLE-2_2}",
+                    "v_s^{LOWER-MANTLE-2_3}"
+                ],
+                "v_p": [
+                    "v_p^{LOWER-MANTLE-2_0}",
+                    "v_p^{LOWER-MANTLE-2_1}",
+                    "v_p^{LOWER-MANTLE-2_2}",
+                    "v_p^{LOWER-MANTLE-2_3}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{LOWER-MANTLE-2_0}",
+                    "\\rho_0^{LOWER-MANTLE-2_1}",
+                    "\\rho_0^{LOWER-MANTLE-2_2}",
+                    "\\rho_0^{LOWER-MANTLE-2_3}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{MANTLE_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{MANTLE_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{MANTLE_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{MANTLE_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{LOWER-MANTLE_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 5600000.0,
+            "r_sup": 5701000.0,
+            "name": "LOWER-MANTLE-3___MANTLE___MANTLE___LOWER-MANTLE",
+            "polynomials": {
+                "v_s": [
+                    22345.9,
+                    -17247.3,
+                    -2083.4,
+                    978.3
+                ],
+                "v_p": [
+                    29276.6,
+                    -23602.7,
+                    5524.2,
+                    -2551.4
+                ],
+                "\\rho_0": [
+                    7956.5,
+                    -6476.1,
+                    5528.3,
+                    -3080.7
+                ],
+                "Q_\\mu": [
+                    312
+                ],
+                "\\omega_{m-inf}": [
+                    0.000309
+                ],
+                "\\alpha": [
+                    0.26
+                ],
+                "\\Delta": [
+                    5
+                ],
+                "\\eta_m": [
+                    1e+23
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{LOWER-MANTLE-3_0}",
+                    "v_s^{LOWER-MANTLE-3_1}",
+                    "v_s^{LOWER-MANTLE-3_2}",
+                    "v_s^{LOWER-MANTLE-3_3}"
+                ],
+                "v_p": [
+                    "v_p^{LOWER-MANTLE-3_0}",
+                    "v_p^{LOWER-MANTLE-3_1}",
+                    "v_p^{LOWER-MANTLE-3_2}",
+                    "v_p^{LOWER-MANTLE-3_3}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{LOWER-MANTLE-3_0}",
+                    "\\rho_0^{LOWER-MANTLE-3_1}",
+                    "\\rho_0^{LOWER-MANTLE-3_2}",
+                    "\\rho_0^{LOWER-MANTLE-3_3}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{MANTLE_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{MANTLE_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{MANTLE_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{MANTLE_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{LOWER-MANTLE_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 5701000.0,
+            "r_sup": 5771000.0,
+            "name": "MANTLE-TRANSITION-ZONE-1___MANTLE___MANTLE___UPPER-MANTLE",
+            "polynomials": {
+                "v_s": [
+                    9983.9,
+                    -4932.4
+                ],
+                "v_p": [
+                    19095.7,
+                    -9867.2
+                ],
+                "\\rho_0": [
+                    5319.7,
+                    -1483.6
+                ],
+                "Q_\\mu": [
+                    312
+                ],
+                "\\omega_{m-inf}": [
+                    0.000309
+                ],
+                "\\alpha": [
+                    0.26
+                ],
+                "\\Delta": [
+                    5
+                ],
+                "\\eta_m": [
+                    1e+18
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{MANTLE-TRANSITION-ZONE-1_0}",
+                    "v_s^{MANTLE-TRANSITION-ZONE-1_1}"
+                ],
+                "v_p": [
+                    "v_p^{MANTLE-TRANSITION-ZONE-1_0}",
+                    "v_p^{MANTLE-TRANSITION-ZONE-1_1}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{MANTLE-TRANSITION-ZONE-1_0}",
+                    "\\rho_0^{MANTLE-TRANSITION-ZONE-1_1}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{MANTLE_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{MANTLE_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{MANTLE_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{MANTLE_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{UPPER-MANTLE_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 5771000.0,
+            "r_sup": 5971000.0,
+            "name": "MANTLE-TRANSITION-ZONE-2___MANTLE___MANTLE___UPPER-MANTLE",
+            "polynomials": {
+                "v_s": [
+                    22351.2,
+                    -18585.6
+                ],
+                "v_p": [
+                    39702.7,
+                    -32616.6
+                ],
+                "\\rho_0": [
+                    11249.4,
+                    -8029.8
+                ],
+                "Q_\\mu": [
+                    312
+                ],
+                "\\omega_{m-inf}": [
+                    0.000309
+                ],
+                "\\alpha": [
+                    0.26
+                ],
+                "\\Delta": [
+                    5
+                ],
+                "\\eta_m": [
+                    1e+18
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{MANTLE-TRANSITION-ZONE-2_0}",
+                    "v_s^{MANTLE-TRANSITION-ZONE-2_1}"
+                ],
+                "v_p": [
+                    "v_p^{MANTLE-TRANSITION-ZONE-2_0}",
+                    "v_p^{MANTLE-TRANSITION-ZONE-2_1}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{MANTLE-TRANSITION-ZONE-2_0}",
+                    "\\rho_0^{MANTLE-TRANSITION-ZONE-2_1}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{MANTLE_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{MANTLE_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{MANTLE_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{MANTLE_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{UPPER-MANTLE_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 5971000.0,
+            "r_sup": 6151000.0,
+            "name": "MANTLE-TRANSITION-ZONE-3___MANTLE___MANTLE___UPPER-MANTLE",
+            "polynomials": {
+                "v_s": [
+                    8949.6,
+                    -4459.7
+                ],
+                "v_p": [
+                    20392.6,
+                    -12256.9
+                ],
+                "\\rho_0": [
+                    7108.9,
+                    -3804.5
+                ],
+                "Q_\\mu": [
+                    312
+                ],
+                "\\omega_{m-inf}": [
+                    0.000309
+                ],
+                "\\alpha": [
+                    0.26
+                ],
+                "\\Delta": [
+                    5
+                ],
+                "\\eta_m": [
+                    1e+18
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{MANTLE-TRANSITION-ZONE-3_0}",
+                    "v_s^{MANTLE-TRANSITION-ZONE-3_1}"
+                ],
+                "v_p": [
+                    "v_p^{MANTLE-TRANSITION-ZONE-3_0}",
+                    "v_p^{MANTLE-TRANSITION-ZONE-3_1}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{MANTLE-TRANSITION-ZONE-3_0}",
+                    "\\rho_0^{MANTLE-TRANSITION-ZONE-3_1}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{MANTLE_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{MANTLE_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{MANTLE_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{MANTLE_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{UPPER-MANTLE_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 6151000.0,
+            "r_sup": 6271000.0,
+            "name": "MANTLE-LVZ___MANTLE___MANTLE___UPPER-MANTLE",
+            "polynomials": {
+                "v_s": [
+                    2151.9,
+                    2348.1
+                ],
+                "v_p": [
+                    4187.5,
+                    3938.2
+                ],
+                "\\rho_0": [
+                    2691.0,
+                    692.4
+                ],
+                "Q_\\mu": [
+                    312
+                ],
+                "\\omega_{m-inf}": [
+                    0.000309
+                ],
+                "\\alpha": [
+                    0.26
+                ],
+                "\\Delta": [
+                    5
+                ],
+                "\\eta_m": [
+                    1e+18
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{MANTLE-LVZ_0}",
+                    "v_s^{MANTLE-LVZ_1}"
+                ],
+                "v_p": [
+                    "v_p^{MANTLE-LVZ_0}",
+                    "v_p^{MANTLE-LVZ_1}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{MANTLE-LVZ_0}",
+                    "\\rho_0^{MANTLE-LVZ_1}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{MANTLE_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{MANTLE_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{MANTLE_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{MANTLE_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{UPPER-MANTLE_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 6271000.0,
+            "r_sup": 6291000.0,
+            "name": "MANTLE-LVZ___CRUST___CRUST___UPPER-MANTLE",
+            "polynomials": {
+                "v_s": [
+                    2151.9,
+                    2348.1
+                ],
+                "v_p": [
+                    4187.5,
+                    3938.2
+                ],
+                "\\rho_0": [
+                    2691.0,
+                    692.4
+                ],
+                "Q_\\mu": [
+                    600
+                ],
+                "\\omega_{m-inf}": [
+                    1.0
+                ],
+                "\\alpha": [
+                    1.0
+                ],
+                "\\Delta": [
+                    0.0
+                ],
+                "\\eta_m": [
+                    1e+18
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{MANTLE-LVZ_0}",
+                    "v_s^{MANTLE-LVZ_1}"
+                ],
+                "v_p": [
+                    "v_p^{MANTLE-LVZ_0}",
+                    "v_p^{MANTLE-LVZ_1}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{MANTLE-LVZ_0}",
+                    "\\rho_0^{MANTLE-LVZ_1}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{CRUST_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{CRUST_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{CRUST_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{CRUST_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{UPPER-MANTLE_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 6291000.0,
+            "r_sup": 6346600.0,
+            "name": "MANTLE-LID___CRUST___CRUST___CRUST",
+            "polynomials": {
+                "v_s": [
+                    2151.9,
+                    2348.1
+                ],
+                "v_p": [
+                    4187.5,
+                    3938.2
+                ],
+                "\\rho_0": [
+                    2691.0,
+                    692.4
+                ],
+                "Q_\\mu": [
+                    600
+                ],
+                "\\omega_{m-inf}": [
+                    1.0
+                ],
+                "\\alpha": [
+                    1.0
+                ],
+                "\\Delta": [
+                    0.0
+                ],
+                "\\eta_m": [
+                    "inf"
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{MANTLE-LID_0}",
+                    "v_s^{MANTLE-LID_1}"
+                ],
+                "v_p": [
+                    "v_p^{MANTLE-LID_0}",
+                    "v_p^{MANTLE-LID_1}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{MANTLE-LID_0}",
+                    "\\rho_0^{MANTLE-LID_1}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{CRUST_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{CRUST_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{CRUST_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{CRUST_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{CRUST_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 6346600.0,
+            "r_sup": 6356000.0,
+            "name": "CRUST-1___CRUST___CRUST___CRUST",
+            "polynomials": {
+                "v_s": [
+                    3900.0
+                ],
+                "v_p": [
+                    6800.0
+                ],
+                "\\rho_0": [
+                    2900.0
+                ],
+                "Q_\\mu": [
+                    600
+                ],
+                "\\omega_{m-inf}": [
+                    1.0
+                ],
+                "\\alpha": [
+                    1.0
+                ],
+                "\\Delta": [
+                    0.0
+                ],
+                "\\eta_m": [
+                    "inf"
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{CRUST-1_0}"
+                ],
+                "v_p": [
+                    "v_p^{CRUST-1_0}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{CRUST-1_0}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{CRUST_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{CRUST_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{CRUST_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{CRUST_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{CRUST_0}"
+                ]
+            }
+        },
+        {
+            "r_inf": 6356000.0,
+            "r_sup": 6371000.0,
+            "name": "CRUST-2___CRUST___CRUST___CRUST",
+            "polynomials": {
+                "v_s": [
+                    3414.64
+                ],
+                "v_p": [
+                    6189.04
+                ],
+                "\\rho_0": [
+                    2283.4
+                ],
+                "Q_\\mu": [
+                    600
+                ],
+                "\\omega_{m-inf}": [
+                    1.0
+                ],
+                "\\alpha": [
+                    1.0
+                ],
+                "\\Delta": [
+                    0.0
+                ],
+                "\\eta_m": [
+                    "inf"
+                ]
+            },
+            "parameter_symbols": {
+                "v_s": [
+                    "v_s^{CRUST-2_0}"
+                ],
+                "v_p": [
+                    "v_p^{CRUST-2_0}"
+                ],
+                "\\rho_0": [
+                    "\\rho_0^{CRUST-2_0}"
+                ],
+                "Q_\\mu": [
+                    "Q_\\mu^{CRUST_0}"
+                ],
+                "\\omega_{m-inf}": [
+                    "\\omega_{m-inf}^{CRUST_0}"
+                ],
+                "\\alpha": [
+                    "\\alpha^{CRUST_0}"
+                ],
+                "\\Delta": [
+                    "\\Delta^{CRUST_0}"
+                ],
+                "\\eta_m": [
+                    "\\eta_m^{CRUST_0}"
+                ]
+            }
+        }
+    ],
+    "solid_earth_parameters": {
+        "model": {
+            "component_parameters": {
+                "viscous_component": false,
+                "transient_component": true,
+                "bounded_attenuation_functions": true
+            },
+            "optional_crust_values": true,
+            "radius_unit": 6371000.0,
+            "structure_parameters": {
+                "dynamic_term": true,
+                "i_layer_icb": 1,
+                "i_layer_cmb": 2
+            }
+        },
+        "n_max": 10000,
+        "integration_parameters": {
+            "high_degrees_radius_sensibility": 0.0001,
+            "minimal_radius": 1000.0,
+            "minimal_layer_radius_factor": 1.0,
+            "atol": 1e-14,
+            "rtol": 1e-10
+        },
+        "compute_partials": true
+    },
+    "units": {
+        "R": 6371000.0,
+        "\\rho_0": 5566.4554459261535,
+        "T": 925.6202200831755,
+        "\\eta_m": 244096253831117.3,
+        "v_p": 6882.952491495386,
+        "g_0": 7.436043792211983,
+        "\\mu_0": 263711021577.70822,
+        "v_s": 6882.952491495386,
+        "\\lambda_0": 263711021577.70822,
+        "f": 0.0010803566930615894,
+        "\\omega_{m-inf}": 0.0010803566930615894,
+        "\\mu_{k1}": 263711021577.70822,
+        "\\eta_k": 244096253831117.3
+    },
+    "love_numbers": {
+        "real": {
+            "2": [
+                [
+                    [
+                        -0.9941578701912621,
+                        0.022478086555065353,
+                        -0.3067313633073396
+                    ],
+                    [
+                        0.06214291544266039,
+                        0.3191612821492267,
+                        0.08462100199688204
+                    ],
+                    [
+                        0.6064532958775345,
+                        0.08462100199885755,
+                        0.29972193257614715
+                    ]
+                ],
+                [
+                    [
+                        -0.994157867247276,
+                        0.022478086221184957,
+                        -0.3067313620348956
+                    ],
+                    [
+                        0.06214291589275017,
+                        0.3191612830673093,
+                        0.084621002113094
+                    ],
+                    [
+                        0.6064532937244046,
+                        0.08462100211507126,
+                        0.29972193169546313
+                    ]
+                ],
+                [
+                    [
+                        -0.9941578672214539,
+                        0.02247808621825672,
+                        -0.3067313620237346
+                    ],
+                    [
+                        0.062142915896698354,
+                        0.3191612830753641,
+                        0.08462100211411323
+                    ],
+                    [
+                        0.6064532937055154,
+                        0.08462100211609348,
+                        0.2997219316877353
+                    ]
+                ]
+            ]
+        },
+        "imag": {
+            "2": [
+                [
+                    [
+                        2.350282976037382e-06,
+                        6.702326458959717e-07,
+                        1.167202835516272e-06
+                    ],
+                    [
+                        -1.255938317813153e-06,
+                        -1.7426081563592906e-06,
+                        -5.857056719286301e-07
+                    ],
+                    [
+                        -2.529224289650475e-06,
+                        -5.857056719383013e-07,
+                        -1.3620214541369853e-06
+                    ]
+                ],
+                [
+                    [
+                        2.5271875400434563e-07,
+                        7.20680712159407e-08,
+                        1.2550575787991363e-07
+                    ],
+                    [
+                        -1.350472146815776e-07,
+                        -1.8737733838467904e-07,
+                        -6.297914346686771e-08
+                    ],
+                    [
+                        -2.7195976736182024e-07,
+                        -6.297914346790888e-08,
+                        -1.4645400948220392e-07
+                    ]
+                ],
+                [
+                    [
+                        1.263593776795795e-07,
+                        3.603403580437843e-08,
+                        6.275287927614418e-08
+                    ],
+                    [
+                        -6.752360770808592e-08,
+                        -9.368866970674566e-08,
+                        -3.14895719043241e-08
+                    ],
+                    [
+                        -1.3597988441048803e-07,
+                        -3.1489571904845624e-08,
+                        -7.322700513449281e-08
+                    ]
+                ]
+            ]
+        }
+    },
+    "love_number_partials": {
+        "real": {
+            "\\Delta^{MANTLE_0}": {
+                "2": [
+                    [
+                        [
+                            -0.29912296483382733,
+                            -0.08531040069422942,
+                            -0.14855217528955303
+                        ],
+                        [
+                            0.15985484628396113,
+                            0.221797446389639,
+                            0.07454789664347339
+                        ],
+                        [
+                            0.3219074513684581,
+                            0.07455431502761913,
+                            0.1733514092982451
+                        ]
+                    ],
+                    [
+                        [
+                            -0.29912321800032976,
+                            -0.08531047401717462,
+                            -0.1485523009734894
+                        ],
+                        [
+                            0.1598549833805322,
+                            0.22179763831992882,
+                            0.07454796042223266
+                        ],
+                        [
+                            0.32190772400775447,
+                            0.07455437880115617,
+                            0.173351556237191
+                        ]
+                    ],
+                    [
+                        [
+                            -0.29912322022277765,
+                            -0.08531047465843342,
+                            -0.14855230207984815
+                        ],
+                        [
+                            0.15985498458272285,
+                            0.22179764000363986,
+                            0.07454796098171569
+                        ],
+                        [
+                            0.32190772639577614,
+                            0.0745543793533368,
+                            0.17335155752594789
+                        ]
+                    ]
+                ]
+            }
+        },
+        "imag": {
+            "\\Delta^{MANTLE_0}": {
+                "2": [
+                    [
+                        [
+                            0.0002793245082662763,
+                            7.992841365089659e-05,
+                            0.00013874250135988915
+                        ],
+                        [
+                            -0.00014967342098933306,
+                            -0.00020812557875151604,
+                            -6.974828067371735e-05
+                        ],
+                        [
+                            -0.00030062872717497453,
+                            -6.975432569033312e-05,
+                            -0.00016188261952761144
+                        ]
+                    ],
+                    [
+                        [
+                            3.003491870702181e-05,
+                            8.594460439424172e-06,
+                            1.4918561117180167e-05
+                        ],
+                        [
+                            -1.6093929987815506e-05,
+                            -2.2379113773864286e-05,
+                            -7.499821520444205e-06
+                        ],
+                        [
+                            -3.2325696884778264e-05,
+                            -7.5004715217076435e-06,
+                            -1.7406747993099577e-05
+                        ]
+                    ],
+                    [
+                        [
+                            1.5017459464757614e-05,
+                            4.297230251888891e-06,
+                            7.459280613977114e-06
+                        ],
+                        [
+                            -8.046965054204635e-06,
+                            -1.1189556971518708e-05,
+                            -3.7499107882680843e-06
+                        ],
+                        [
+                            -1.6162848561930502e-05,
+                            -3.750235788531562e-06,
+                            -8.703374061061613e-06
+                        ]
+                    ]
+                ]
+            }
+        }
+    }
+}

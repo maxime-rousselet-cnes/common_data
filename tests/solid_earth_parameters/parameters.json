@@ -1,0 +1,25 @@
+{
+    "model": {
+        "component_parameters": {
+            "viscous_component": true,
+            "transient_component": true,
+            "bounded_attenuation_functions": true
+        },
+        "optional_crust_values": true,
+        "radius_unit": 6371000.0,
+        "structure_parameters": {
+            "dynamic_term": true,
+            "i_layer_icb": null,
+            "i_layer_cmb": null
+        }
+    },
+    "n_max": 10000,
+    "integration_parameters": {
+        "high_degrees_radius_sensibility": 0.0001,
+        "minimal_radius": 1000.0,
+        "minimal_layer_radius_factor": 1.0,
+        "atol": 1e-14,
+        "rtol": 1e-10
+    },
+    "compute_partials": true
+}

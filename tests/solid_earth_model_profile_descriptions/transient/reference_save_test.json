@@ -1,0 +1,38 @@
+{
+    "layer_names": [
+        "MANTLE",
+        "CRUST"
+    ],
+    "r_limits": [
+        3480000.0,
+        6271000.0,
+        6371000.0
+    ],
+    "optional_crust_values": null,
+    "polynomials": {
+        "\\omega_{m-inf}": [
+            [
+                0.000309
+            ],
+            [
+                1.0
+            ]
+        ],
+        "\\alpha": [
+            [
+                0.26
+            ],
+            [
+                1.0
+            ]
+        ],
+        "\\Delta": [
+            [
+                5
+            ],
+            [
+                0.0
+            ]
+        ]
+    }
+}
